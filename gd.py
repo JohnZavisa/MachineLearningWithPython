@@ -18,8 +18,6 @@ def costFunction(x_values, y_values, y):
         count+=1
     return (total1/len(y_values)), (total2/len(y_values))
 
-
-
 count = 0
 while count < 100:
     intercept, slope = costFunction(x_values, y_values, y)
